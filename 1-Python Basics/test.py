@@ -31,3 +31,8 @@ comment.
 
 print("sagar")
 print(5+3)
+
+x = "Rishi"
+
+type(x) # This is not the best practice.
+
