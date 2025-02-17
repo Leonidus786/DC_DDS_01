@@ -29,10 +29,6 @@ class CharsetError(MessageError):
     """An illegal charset was given."""
 
 
-class HeaderWriteError(MessageError):
-    """Error while writing headers."""
-
-
 # These are parsing defects which the parser was able to work around.
 class MessageDefect(ValueError):
     """Base class for a message defect."""
@@ -114,4 +110,4 @@ class NonASCIILocalPartDefect(HeaderDefect):
     # parsing messages decoded from binary.
 
 class InvalidDateDefect(HeaderDefect):
-    """Header has unparsable or invalid date"""
+    """Header has unparseable or invalid date"""
