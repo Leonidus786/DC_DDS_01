@@ -5,3 +5,4 @@ seaborn
 ipykernel
 pandas
 beautifulsoup4
+Flask
