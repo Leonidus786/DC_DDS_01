@@ -32,6 +32,12 @@ def about():
 
 
 ## Variable Rule
+# @app.route('/success/<int:score>')
+# def success(score):
+#     return "The marks you got is "+ str(score)
+
+
+
 @app.route('/success/<int:score>')
 def success(score):
     res=""
@@ -40,9 +46,9 @@ def success(score):
     else:
         res="FAILED"
 
-    return render_template('result.html',results=res)
+    return render_template('result.html',results=res, score=score)
 
-## Variable Rule
+# ## Variable Rule
 @app.route('/successres/<int:score>')
 def successres(score):
     res=""
@@ -55,7 +61,7 @@ def successres(score):
 
     return render_template('result1.html',results=exp)
 
-## if confition
+# ## if confition
 @app.route('/sucessif/<int:score>')
 def successif(score):
 

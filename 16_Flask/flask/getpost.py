@@ -21,6 +21,7 @@ def about():
 @app.route('/form',methods=['GET','POST'])
 def form():
     if request.method=='POST':
+        # pass
         name=request.form['name']
         return f'Hello {name}!'
     return render_template('form.html')
@@ -29,7 +30,7 @@ def form():
 def submit():
     if request.method=='POST':
         name=request.form['name']
-        return f'Hello {name}!'
+        return f'Hello {name} this message is on another page!'
     return render_template('form.html')
 
 
