@@ -1,0 +1,28 @@
+<<<<<<< HEAD
+
+
+select * from ReportingStructure
+
+select b.employeename [Reportee],A.employeename [Manager]
+from
+ReportingStructure A inner join reportingstructure B
+on a.employeeid = b.managerid
+
+union all
+
+select employeename,null [Manager] from reportingstructure
+=======
+
+
+select * from ReportingStructure
+
+select b.employeename [Reportee],A.employeename [Manager]
+from
+ReportingStructure A inner join reportingstructure B
+on a.employeeid = b.managerid
+
+union all
+
+select employeename,null [Manager] from reportingstructure
+>>>>>>> 2146a209 (Local)
+where managerid is null

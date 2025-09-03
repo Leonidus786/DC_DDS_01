@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+2025-05-21 12:39:28 - ArithmethicApp - DEBUG - Adding 10 + 15= 25
+2025-05-21 12:39:28 - ArithmethicApp - DEBUG - Subtracting 15 - 10 = 5
+2025-05-21 12:39:28 - ArithmethicApp - DEBUG - Multiplying 10 * 20 = 200
+2025-05-21 12:39:28 - ArithmethicApp - ERROR - Division by zero error
+=======
+2025-05-21 12:39:28 - ArithmethicApp - DEBUG - Adding 10 + 15= 25
+2025-05-21 12:39:28 - ArithmethicApp - DEBUG - Subtracting 15 - 10 = 5
+2025-05-21 12:39:28 - ArithmethicApp - DEBUG - Multiplying 10 * 20 = 200
+2025-05-21 12:39:28 - ArithmethicApp - ERROR - Division by zero error
+>>>>>>> 2146a209 (Local)

@@ -1,0 +1,26 @@
+<<<<<<< HEAD
+Questions for this assignment -1
+
+
+Q-1--> Write a query to calculate the total sales amount for each department in the EmployeeSales table.
+
+Q-2--> Write a query to count the number of sales made by each employee.
+
+Q-3--> Write a query to calculate the average sale amount for each department.
+
+Q-4--> Write a query to find the total sales amount for each employee, but only include employees who have made more than one sale.
+
+=======
+Questions for this assignment -1
+
+
+Q-1--> Write a query to calculate the total sales amount for each department in the EmployeeSales table.
+
+Q-2--> Write a query to count the number of sales made by each employee.
+
+Q-3--> Write a query to calculate the average sale amount for each department.
+
+Q-4--> Write a query to find the total sales amount for each employee, but only include employees who have made more than one sale.
+
+>>>>>>> 2146a209 (Local)
+Q-5--> Write a query to find the total sales for each month in 2023.
