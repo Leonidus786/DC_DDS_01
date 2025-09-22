@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+# <<<<<<< HEAD
 import streamlit as st
 import pandas as pd
 from sklearn.datasets import load_iris
@@ -31,7 +31,7 @@ predicted_species = target_names[prediction[0]]
 st.write("Prediction")
 st.write(f"The predicted species is: {predicted_species}")
 
-=======
+# =======
 import streamlit as st
 import pandas as pd
 from sklearn.datasets import load_iris
@@ -64,4 +64,4 @@ predicted_species = target_names[prediction[0]]
 st.write("Prediction")
 st.write(f"The predicted species is: {predicted_species}")
 
->>>>>>> 2146a209 (Local)
+# >>>>>>> 2146a209 (Local)
