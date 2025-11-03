@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ---1) How do you select all columns from the Employees table?
 select * from Employees
 
